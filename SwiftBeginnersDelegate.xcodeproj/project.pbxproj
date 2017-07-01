@@ -15,6 +15,8 @@
 		CE35E3F91F071E3A0042C61A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE35E3F71F071E3A0042C61A /* LaunchScreen.storyboard */; };
 		CE35E4041F071E3B0042C61A /* SwiftBeginnersDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35E4031F071E3B0042C61A /* SwiftBeginnersDelegateTests.swift */; };
 		CE35E40F1F071E3B0042C61A /* SwiftBeginnersDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35E40E1F071E3B0042C61A /* SwiftBeginnersDelegateUITests.swift */; };
+		CE35E41E1F071F560042C61A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35E41C1F071F560042C61A /* CustomTableViewCell.swift */; };
+		CE35E41F1F071F560042C61A /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE35E41D1F071F560042C61A /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CE35E40A1F071E3B0042C61A /* SwiftBeginnersDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBeginnersDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE35E40E1F071E3B0042C61A /* SwiftBeginnersDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBeginnersDelegateUITests.swift; sourceTree = "<group>"; };
 		CE35E4101F071E3B0042C61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE35E41C1F071F560042C61A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CE35E41D1F071F560042C61A /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				CE35E3EC1F071E3A0042C61A /* AppDelegate.swift */,
 				CE35E3EE1F071E3A0042C61A /* FirstViewController.swift */,
 				CE35E3F01F071E3A0042C61A /* SecondViewController.swift */,
+				CE35E41C1F071F560042C61A /* CustomTableViewCell.swift */,
+				CE35E41D1F071F560042C61A /* CustomTableViewCell.xib */,
 				CE35E3F21F071E3A0042C61A /* Main.storyboard */,
 				CE35E3F51F071E3A0042C61A /* Assets.xcassets */,
 				CE35E3F71F071E3A0042C61A /* LaunchScreen.storyboard */,
@@ -240,6 +246,7 @@
 			files = (
 				CE35E3F91F071E3A0042C61A /* LaunchScreen.storyboard in Resources */,
 				CE35E3F61F071E3A0042C61A /* Assets.xcassets in Resources */,
+				CE35E41F1F071F560042C61A /* CustomTableViewCell.xib in Resources */,
 				CE35E3F41F071E3A0042C61A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +274,7 @@
 			files = (
 				CE35E3F11F071E3A0042C61A /* SecondViewController.swift in Sources */,
 				CE35E3ED1F071E3A0042C61A /* AppDelegate.swift in Sources */,
+				CE35E41E1F071F560042C61A /* CustomTableViewCell.swift in Sources */,
 				CE35E3EF1F071E3A0042C61A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
