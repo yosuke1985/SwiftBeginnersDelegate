@@ -1,0 +1,2 @@
+# SwiftBeginnersDelegate
+Swift Beginnersでプレゼンのためのサンプルコード
